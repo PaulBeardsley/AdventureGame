@@ -1,3 +1,4 @@
+15.25
 from parse import *
 from action import *
 from initialise import *
@@ -64,4 +65,5 @@ while(you.lost):
     if(instructions[2] != ""):
         extra = instructions[2]
     action(verb, noun, extra)
+
 
